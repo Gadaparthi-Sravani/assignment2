@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+<style type="text/css">
+	body{
+		background-color:powderblue;
+	}
+	div{
+		
+		width:400px; 
+	}
+</style>
+</head>
+<body>
+<script type="text/javascript" src="forms.js"></script>
+<center>
+	<div>
+		<form action="/forms.php " method="post" onsubmit="return validate();">
+		<h1>
+			registration form:
+		</h1>
+		<tr>
+			<td>first name:</td><td><input type="text" name="fname" id="first"></td> 
+		</tr>
+		<tr><br/>
+			<td>Last Name</td>
+			<td><input type="text"name="vv" id="lname"> </td>
+		</tr>
+		<tr><br/>
+			<td>country</td>
+			<td>
+				<select name="dropdown" id="cName">
+					<option value="India" selected>India</option>
+					<option value="usa"selected>USA</option>
+				</select>
+			</td>
+		</tr>
+		<tr><br/>
+			<td>phone number:</td>
+			<td><input type="text" name="phone" id="iph"></td>
+		</tr>
+		<tr><br/>
+			<td>mail Id:</td>
+			<td><input type="text" name=" mail" id="mailid"></td>
+		</tr>
+		<tr><br/>
+			<td>password:</td>
+			<td><input type="password" name="password" id="pwd"></td>
+		</tr>
+		<tr>
+			<br>
+			<td>DOB:</td>
+			<td><input type="date" name="" id="date" value="Date"></td>
+		</tr>
+		<tr><br/>
+			<td id="hob">hobbies:</td>
+			<td><input type="radio" name=" cricket">cricket</td>
+			<td><input type="radio" name=" reading">reading</td>
+			<td><input type="radio" name="writng">writing</td>
+		</tr>
+		<tr><br/>
+			<td>address:</td>
+			<td><textarea rows='5' cols="50" name="address"></textarea>></td>
+		</tr>
+		<tr><br/>
+			<td>image:</td>
+			<td><input type="image" name="fileupload" accept="image/*"></td>
+		</tr>
+		<tr>
+			<br>
+			<td><input type="checkbox" name="checkbox" id="checkbox"></td>
+			<td>I agree to the terms of the company</td>
+		</tr>
+		<tr><br/>
+			<td></td>
+			<td>
+				<input type="submit" name="submit"value="submit" id="submit"></td>
+		</tr>
+		<tr>
+			<td ><a href="C:\Users\AmeerBalu\Desktop\files\images\slide.html" />back</td>
+		</tr>
+
+	</table>
+</form>
+</div>
+</center>
+</body>
+</html>
